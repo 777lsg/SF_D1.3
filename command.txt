@@ -1,0 +1,9 @@
+command
+
+- docker stack deploy -c docker-scale.yml web1
+- docker service logs NAME
+- docker stack rm web1
+- docker service scale frontend=2
+- docker service ls
+- docker service ps name
+- docker node ls
